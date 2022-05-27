@@ -9,7 +9,7 @@ var remoteHub = 'http://hub.crossbrowsertesting.com:80/wd/hub';
 var assert = require('assert')
 
 var username = 'william.pratt@smartbear.com'; //replace with your email address 
-var authkey = 'u4ee69aaed09f84b'; //replace with your authkey 
+var authkey = 'AUTHKEY'; //replace with your authkey 
 
 var caps = {
     'browserName': 'Safari',
@@ -21,7 +21,7 @@ var caps = {
 };
 
 caps.username = 'william.pratt@smartbear.com';
-caps.password = 'u4ee69aaed09f84b';
+caps.password = 'PASSWORD';
 
 var sessionId = null;
 
